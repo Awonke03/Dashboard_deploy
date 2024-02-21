@@ -1,6 +1,3 @@
-
-
-
 import pandas as pd
 import plotly.express as px
 import dash
@@ -11,15 +8,12 @@ import dash_table
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 from jupyter_dash import JupyterDash 
-import dash_core_components as dcc
+from dash import dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 from dash import dash_table
 import statsmodels.api as sm
 from matplotlib import pyplot as plt
-
-
-import pandas as pd
 
 crop_recommendation_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Crop_recommendation.csv'
 train_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Train.csv'
@@ -42,31 +36,15 @@ df2 = pd.read_csv(agriculture_rural_url)
 
 df2.head()
 
-
-# In[4]:
-
-
 summary_stats = df2.describe()
 print("Summary Statistics:")
 summary_stats
 
-
-# In[5]:
-
-
 df2.drop(columns=['Country Name', 'Country ISO3'],inplace=True)
 df2.sample(5)
 
-
-# In[6]:
-
-
 df2 = df2.drop(df.index[0])
 df2.head()
-
-
-# In[7]:
-
 
 #df2 = df2.sort_values(by=['Indicator Name', 'Year'])
 df2.tail(5)
