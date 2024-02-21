@@ -22,14 +22,26 @@ from matplotlib import pyplot as plt
 # In[2]:
 
 
-df = pd.read_csv('https://github.com/Awonke03/Dashboard_deploy/blob/main/Crop_recommendation.csv')
-data = pd.read_csv("https://github.com/Awonke03/Dashboard_deploy/blob/main/Train.csv")
-df4=pd.read_excel("https://github.com/Awonke03/Dashboard_deploy/blob/main/LandArea2020.xls")
-df5=pd.read_excel("https://github.com/Awonke03/Dashboard_deploy/blob/main/NC%20Data.xlsx")
-df3=pd.read_csv("https://github.com/Awonke03/Dashboard_deploy/blob/main/CountriesGdp.csv")
-df1=pd.read_excel("https://github.com/Awonke03/Dashboard_deploy/blob/main/Agricultural%20land%20in%20south%20as%20a%20share%20of%20lanD%20IN%20SA%20.xlsx")
-file_path = 'https://github.com/Awonke03/Dashboard_deploy/blob/main/agriculture-and-rural-development_zaf.csv'
-df2 = pd.read_csv(file_path)
+import pandas as pd
+
+# URLs to raw files on GitHub
+crop_recommendation_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Crop_recommendation.csv'
+train_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Train.csv'
+land_area_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/LandArea2020.xls'
+nc_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/NC%20Data.xlsx'
+gdp_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/CountriesGdp.csv'
+agricultural_land_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Agricultural%20land%20in%20south%20as%20a%20share%20of%20lanD%20IN%20SA%20.xlsx'
+agriculture_rural_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/agriculture-and-rural-development_zaf.csv'
+
+# Read files into pandas DataFrames
+df_crop_recommendation = pd.read_csv(crop_recommendation_url)
+df_train_data = pd.read_csv(train_data_url)
+df_land_area = pd.read_excel(land_area_url)
+df_nc_data = pd.read_excel(nc_data_url)
+df_gdp_data = pd.read_csv(gdp_data_url)
+df_agricultural_land = pd.read_excel(agricultural_land_url)
+df_agriculture_rural = pd.read_csv(agriculture_rural_url)
+
 
 
 # In[3]:
