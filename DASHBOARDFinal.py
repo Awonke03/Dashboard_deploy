@@ -546,7 +546,7 @@ CONTENT_STYLE = {
 
 
 app = JupyterDash(__name__, external_stylesheets=[dbc.themes.SLATE], suppress_callback_exceptions=True)
-app=app.server
+#app=app.server
 
 
 app.layout = html.Div([
