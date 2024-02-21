@@ -19,12 +19,8 @@ import statsmodels.api as sm
 from matplotlib import pyplot as plt
 
 
-# In[2]:
-
-
 import pandas as pd
 
-# URLs to raw files on GitHub
 crop_recommendation_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Crop_recommendation.csv'
 train_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Train.csv'
 land_area_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/LandArea2020.xls'
@@ -33,18 +29,15 @@ gdp_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main
 agricultural_land_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Agricultural%20land%20in%20south%20as%20a%20share%20of%20lanD%20IN%20SA%20.xlsx'
 agriculture_rural_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/agriculture-and-rural-development_zaf.csv'
 
-# Read files into pandas DataFrames
-df_crop_recommendation = pd.read_csv(crop_recommendation_url)
-df_train_data = pd.read_csv(train_data_url)
-df_land_area = pd.read_excel(land_area_url)
-df_nc_data = pd.read_excel(nc_data_url)
-df_gdp_data = pd.read_csv(gdp_data_url)
-df_agricultural_land = pd.read_excel(agricultural_land_url)
-df_agriculture_rural = pd.read_csv(agriculture_rural_url)
 
+df = pd.read_csv(crop_recommendation_url)
+data = pd.read_csv(train_data_url)
+df4 = pd.read_excel(land_area_url)
+df5 = pd.read_excel(nc_data_url)
+df3 = pd.read_csv(gdp_data_url)
+df1 = pd.read_excel(agricultural_land_url)
+df2 = pd.read_csv(agriculture_rural_url)
 
-
-# In[3]:
 
 
 df2.head()
