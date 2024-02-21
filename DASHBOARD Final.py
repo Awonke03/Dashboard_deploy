@@ -24,13 +24,13 @@ from wordcloud import WordCloud
 # In[2]:
 
 
-df = pd.read_csv('C:/Users/Admin/Downloads/NEMISA Finals/Crop_recommendation.csv')
-data = pd.read_csv("C:/Users/Admin/Downloads/NEMISA Finals/Train.csv")
-df4=pd.read_excel("C:/Users/Admin/Downloads/NEMISA Finals/LandArea2020.xls")
-df5=pd.read_excel("C:/Users/Admin/Downloads/NEMISA Finals/NC Data.xlsx")
-df3=pd.read_csv("C:/Users/Admin/Downloads/NEMISA Finals/CountriesGdp.csv")
-df1=pd.read_excel("C:\\Users\\Admin\\Downloads\\NEMISA Finals\\Agricultural land in south as a share of lanD IN SA .xlsx")
-file_path = 'C:\\Users\\Admin\\Downloads\\NEMISA Finals\\agriculture-and-rural-development_zaf.csv'
+df = pd.read_csv('https://github.com/Awonke03/Dashboard_deploy/blob/main/Crop_recommendation.csv')
+data = pd.read_csv("https://github.com/Awonke03/Dashboard_deploy/blob/main/Train.csv")
+df4=pd.read_excel("https://github.com/Awonke03/Dashboard_deploy/blob/main/LandArea2020.xls")
+df5=pd.read_excel("https://github.com/Awonke03/Dashboard_deploy/blob/main/NC%20Data.xlsx")
+df3=pd.read_csv("https://github.com/Awonke03/Dashboard_deploy/blob/main/CountriesGdp.csv")
+df1=pd.read_excel("https://github.com/Awonke03/Dashboard_deploy/blob/main/Agricultural%20land%20in%20south%20as%20a%20share%20of%20lanD%20IN%20SA%20.xlsx")
+file_path = 'https://github.com/Awonke03/Dashboard_deploy/blob/main/agriculture-and-rural-development_zaf.csv'
 df2 = pd.read_csv(file_path)
 
 
