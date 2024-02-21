@@ -5,4 +5,7 @@ dash_bootstrap_components
 seaborn
 jupyter_dash
 gunicorn
-DASHBOARD
+dash-bootstrap-components==0.13.1
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-renderer==2.0.0
