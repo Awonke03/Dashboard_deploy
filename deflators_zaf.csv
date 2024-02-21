@@ -1,0 +1,424 @@
+Iso3,StartDate,EndDate,Area Code,Area Code (M49),Area,Item Code,Item,Element Code,Element,Year Code,Year,Unit,Value,Flag
+#country+code,#date+start,#date+end,,,#country+name,#indicator+code,#indicator+name,,,,#date+year,#indicator+type,#indicator+value+num,
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1970,1970,LCU,0.9896071184,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1971,1971,LCU,1.0487886617,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1972,1972,LCU,1.1643296982,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1973,1973,LCU,1.3777335592,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1974,1974,LCU,1.5968069344,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1975,1975,LCU,1.7671954452,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1976,1976,LCU,1.9512816201,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1977,1977,LCU,2.1692111159,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1978,1978,LCU,2.4225678191,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1979,1979,LCU,2.7891155541,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1980,1980,LCU,3.4840133241,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1981,1981,LCU,3.8298806007,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1982,1982,LCU,4.3636273337,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1983,1983,LCU,5.0866296726,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1984,1984,LCU,5.6725928750,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1985,1985,LCU,6.6256201511,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1986,1986,LCU,7.7560658710,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1987,1987,LCU,8.8805017798,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1988,1988,LCU,10.2288472354,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1989,1989,LCU,11.9942231924,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1990,1990,LCU,13.8559080844,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1991,1991,LCU,16.0350265334,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1992,1992,LCU,18.3715145488,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1993,1993,LCU,20.7759002413,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1994,1994,LCU,22.8144704400,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1995,1995,LCU,25.2871756307,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1996,1996,LCU,27.3157351073,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1997,1997,LCU,29.5385347299,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1998,1998,LCU,31.9239895116,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",1999,1999,LCU,34.1231801873,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2000,2000,LCU,37.2564359092,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2001,2001,LCU,40.1626148666,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2002,2002,LCU,45.1981866122,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2003,2003,LCU,48.0889557726,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2004,2004,LCU,50.9945729968,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2005,2005,LCU,53.8487442362,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2006,2006,LCU,57.1144752951,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2007,2007,LCU,61.8240007311,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2008,2008,LCU,66.6773893988,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2009,2009,LCU,72.4536794047,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2010,2010,LCU,76.8939546200,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2011,2011,LCU,81.1531541567,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2012,2012,LCU,84.9553469195,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2013,2013,LCU,89.9202320337,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2014,2014,LCU,94.7458428168,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2015,2015,LCU,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2016,2016,LCU,106.9521721500,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2017,2017,LCU,112.8060088911,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2018,2018,LCU,117.0314446375,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2019,2019,LCU,122.4594584025,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2020,2020,LCU,129.4306042593,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2021,2021,LCU,137.4799157023,X
+ZAF,2022-01-01,2022-12-31,202,'710,South Africa,22024,GDP Deflator,6180,"Value Local Currency, 2015 prices",2022,2022,LCU,144.4285530227,E
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1970,1970,USD,17.6768532892,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1971,1971,USD,18.7095973143,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1972,1972,USD,19.3255039908,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1973,1973,USD,25.3306099803,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1974,1974,USD,29.9841631137,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1975,1975,USD,30.4899095078,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1976,1976,USD,28.6307073939,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1977,1977,USD,31.8283368710,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1978,1978,USD,35.5457816314,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1979,1979,USD,42.2626809446,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1980,1980,USD,57.0754489224,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1981,1981,USD,55.6818076265,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1982,1982,USD,51.2750116967,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1983,1983,USD,58.2532595146,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1984,1984,USD,49.0593941962,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1985,1985,USD,37.9309812221,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1986,1986,USD,43.3075435286,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1987,1987,USD,55.6502226875,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1988,1988,USD,57.4053312265,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1989,1989,USD,58.3500886727,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1990,1990,USD,68.3280446969,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1991,1991,USD,74.0914365862,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1992,1992,USD,82.1878401061,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1993,1993,USD,81.1197178272,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1994,1994,USD,81.9782550594,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1995,1995,USD,88.9522374171,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1996,1996,USD,81.0633337028,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1997,1997,USD,81.7889015171,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1998,1998,USD,73.6785525761,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",1999,1999,USD,71.2622024345,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2000,2000,USD,68.4962606871,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2001,2001,USD,59.5215778376,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2002,2002,USD,54.7096479192,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2003,2003,USD,81.1082627239,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2004,2004,USD,100.7224774525,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2005,2005,USD,108.0385175500,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2006,2006,USD,107.6149082977,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2007,2007,USD,111.9612897450,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2008,2008,USD,102.9789618739,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2009,2009,USD,109.0945285772,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2010,2010,USD,134.0055877805,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2011,2011,USD,142.5986286716,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2012,2012,USD,132.0272279508,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2013,2013,USD,118.8274844932,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2014,2014,USD,111.3880056467,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2015,2015,USD,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2016,2016,USD,92.7689646362,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2017,2017,USD,107.9426773771,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2018,2018,USD,112.7714020858,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2019,2019,USD,108.1399213612,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2020,2020,USD,100.3332863171,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2021,2021,USD,118.6910437188,X
+ZAF,2022-01-01,2022-12-31,202,'710,South Africa,22024,GDP Deflator,6179,"Value US$, 2015 prices",2022,2022,USD,112.6663262807,E
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1970,1970,LCU,1.5806750270,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1971,1971,LCU,1.6646688914,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1972,1972,LCU,1.8212085879,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1973,1973,LCU,2.0240945581,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1974,1974,LCU,2.3147038119,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1975,1975,LCU,2.7854034527,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1976,1976,LCU,3.2615540657,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1977,1977,LCU,3.5774104112,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1978,1978,LCU,3.9829177441,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1979,1979,LCU,4.5494291368,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1980,1980,LCU,5.1887656998,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1981,1981,LCU,5.8479407508,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1982,1982,LCU,6.7934513186,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1983,1983,LCU,7.6336406658,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1984,1984,LCU,8.3613989438,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1985,1985,LCU,9.8685879575,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1986,1986,LCU,12.2243969002,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1987,1987,LCU,13.6816544387,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1988,1988,LCU,15.8693698288,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1989,1989,LCU,18.6178313207,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1990,1990,LCU,20.7993150822,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1991,1991,LCU,23.0532176040,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1992,1992,LCU,24.8889562685,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1993,1993,LCU,26.8949662668,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1994,1994,LCU,28.6166181721,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1995,1995,LCU,30.9492494174,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1996,1996,LCU,32.1968838819,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1997,1997,LCU,34.5202204791,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1998,1998,LCU,36.5953458337,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",1999,1999,LCU,38.9567666955,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2000,2000,LCU,41.3647988889,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2001,2001,LCU,44.4533962509,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2002,2002,LCU,48.9546743262,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2003,2003,LCU,50.8255845509,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2004,2004,LCU,51.6609775569,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2005,2005,LCU,54.1734159555,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2006,2006,LCU,59.1755058265,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2007,2007,LCU,64.9837962161,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2008,2008,LCU,72.8411906946,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2009,2009,LCU,75.3037745250,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2010,2010,LCU,77.2180901023,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2011,2011,LCU,79.8022327867,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2012,2012,LCU,84.6582721080,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2013,2013,LCU,90.2915795956,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2014,2014,LCU,96.3096988378,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2015,2015,LCU,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2016,2016,LCU,106.3246973630,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2017,2017,LCU,108.8744229476,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2018,2018,LCU,112.9795739626,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2019,2019,LCU,117.1468256286,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2020,2020,LCU,121.2721651838,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2021,2021,LCU,128.2796961494,X
+ZAF,2022-01-01,2022-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6180,"Value Local Currency, 2015 prices",2022,2022,LCU,140.9760688715,E
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1970,1970,USD,28.2348014992,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1971,1971,USD,29.6964352842,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1972,1972,USD,30.2283570434,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1973,1973,USD,37.2144160044,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1974,1974,USD,43.4645260863,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1975,1975,USD,48.0573325625,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1976,1976,USD,47.8560342808,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1977,1977,USD,52.4905219499,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1978,1978,USD,58.4404379826,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1979,1979,USD,68.9362159297,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1980,1980,USD,85.0028700020,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1981,1981,USD,85.0219486838,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1982,1982,USD,79.8267746495,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1983,1983,USD,87.4222185160,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1984,1984,USD,72.3135214980,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1985,1985,USD,56.4966321589,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1986,1986,USD,68.2573626465,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1987,1987,USD,85.7369476550,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1988,1988,USD,89.0605178095,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1989,1989,USD,90.5729442442,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1990,1990,USD,102.5682706570,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1991,1991,USD,106.5196871775,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1992,1992,USD,111.3446337137,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1993,1993,USD,105.0116745458,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1994,1994,USD,102.8268628727,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1995,1995,USD,108.8696113105,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1996,1996,USD,95.5488377689,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1997,1997,USD,95.5826326163,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1998,1998,USD,84.4597480860,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",1999,1999,USD,81.3565728403,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2000,2000,USD,76.0495194676,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2001,2001,USD,65.8805780920,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2002,2002,USD,59.2566471608,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2003,2003,USD,85.7239421945,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2004,2004,USD,102.0387335624,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2005,2005,USD,108.6899171646,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2006,2006,USD,111.4982953110,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2007,2007,USD,117.6835783975,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2008,2008,USD,112.4985586123,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2009,2009,USD,113.3859570609,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2010,2010,USD,134.5704691947,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2011,2011,USD,140.2248511296,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2012,2012,USD,131.5655505486,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2013,2013,USD,119.3182116149,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2014,2014,USD,113.2265538945,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2015,2015,USD,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2016,2016,USD,92.2247009233,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2017,2017,USD,104.1805913211,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2018,2018,USD,108.8670228953,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2019,2019,USD,103.4485100330,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2020,2020,USD,94.0089474303,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2021,2021,USD,110.7481841702,X
+ZAF,2022-01-01,2022-12-31,202,'710,South Africa,22025,Gross Fixed Capital Formation Deflator,6179,"Value US$, 2015 prices",2022,2022,USD,109.9731004765,E
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1970,1970,LCU,2.4135573096,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1971,1971,LCU,2.4381705484,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1972,1972,LCU,2.7246873353,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1973,1973,LCU,3.6772666071,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1974,1974,LCU,4.1620087817,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1975,1975,LCU,4.5295720233,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1976,1976,LCU,4.6022330656,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1977,1977,LCU,4.7481467748,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1978,1978,LCU,4.9857433588,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1979,1979,LCU,5.4005584326,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1980,1980,LCU,6.8327728121,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1981,1981,LCU,7.7640626950,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1982,1982,LCU,8.3779672894,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1983,1983,LCU,9.6748947111,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1984,1984,LCU,10.9921845881,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1985,1985,LCU,11.3499030934,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1986,1986,LCU,11.9419070379,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1987,1987,LCU,15.3331529142,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1988,1988,LCU,18.4884283375,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1989,1989,LCU,17.8288012154,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1990,1990,LCU,18.9684830142,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1991,1991,LCU,20.6030024306,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1992,1992,LCU,26.7482223671,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1993,1993,LCU,26.9031168290,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1994,1994,LCU,31.0041784082,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1995,1995,LCU,36.7662847540,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1996,1996,LCU,36.5630469407,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1997,1997,LCU,38.4312288321,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1998,1998,LCU,40.9512993885,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",1999,1999,LCU,39.5940444189,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2000,2000,LCU,39.5217944836,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2001,2001,LCU,48.6694476252,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2002,2002,LCU,56.0723105703,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2003,2003,LCU,54.7517489226,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2004,2004,LCU,54.6929406670,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2005,2005,LCU,51.1312362253,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2006,2006,LCU,59.5887887373,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2007,2007,LCU,75.8058321642,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2008,2008,LCU,77.1460239618,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2009,2009,LCU,78.4742371753,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2010,2010,LCU,75.6095180039,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2011,2011,LCU,78.2697511314,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2012,2012,LCU,79.7363575352,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2013,2013,LCU,80.6970231276,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2014,2014,LCU,85.7426863110,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2015,2015,LCU,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2016,2016,LCU,122.6672546950,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2017,2017,LCU,113.5325740270,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2018,2018,LCU,108.1523656841,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2019,2019,LCU,105.0613558472,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2020,2020,LCU,116.2285556520,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2021,2021,LCU,116.5137481098,X
+ZAF,2022-01-01,2022-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6180,"Value Local Currency, 2015 prices",2022,2022,LCU,129.7601721089,E
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1970,1970,USD,43.1121580192,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1971,1971,USD,43.4951204274,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1972,1972,USD,45.2242659905,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1973,1973,USD,67.6091582424,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1974,1974,USD,78.1524350248,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1975,1975,USD,78.1499530637,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1976,1976,USD,67.5275095613,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1977,1977,USD,69.6684679294,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1978,1978,USD,73.1546680779,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1979,1979,USD,81.8331379739,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1980,1980,USD,111.9351562006,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1981,1981,USD,112.8800321609,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1982,1982,USD,98.4457053522,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1983,1983,USD,110.7991319717,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1984,1984,USD,95.0658594171,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1985,1985,USD,64.9770061198,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1986,1986,USD,66.6800240564,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1987,1987,USD,96.0861666751,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1988,1988,USD,103.7589405875,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1989,1989,USD,86.7344316643,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1990,1990,USD,93.5398349448,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1991,1991,USD,95.1982240186,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1992,1992,USD,119.6623510374,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1993,1993,USD,105.0434985007,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1994,1994,USD,111.4059803466,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1995,1995,USD,129.3320906274,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1996,1996,USD,108.5060483895,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1997,1997,USD,106.4117776617,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1998,1998,USD,94.5130139189,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",1999,1999,USD,82.6874515532,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2000,2000,USD,72.6611408663,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2001,2001,USD,72.1288273875,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2002,2002,USD,67.8721116765,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2003,2003,USD,92.3459277678,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2004,2004,USD,108.0273479980,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2005,2005,USD,102.5862912986,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2006,2006,USD,112.2770016253,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2007,2007,USD,137.2819396826,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2008,2008,USD,119.1470981681,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2009,2009,USD,118.1597674601,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2010,2010,USD,131.7671584455,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2011,2011,USD,137.5320441182,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2012,2012,USD,123.9165118380,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2013,2013,USD,106.6392295423,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2014,2014,USD,100.8034394231,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2015,2015,USD,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2016,2016,USD,106.4000289481,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2017,2017,USD,108.6379185866,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2018,2018,USD,104.2155290390,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2019,2019,USD,92.7762290282,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2020,2020,USD,90.0991926847,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2021,2021,USD,100.5902447648,X
+ZAF,2022-01-01,2022-12-31,202,'710,South Africa,22026,"Value Added Deflator (Agriculture, forestry and fishery)",6179,"Value US$, 2015 prices",2022,2022,USD,101.2237648518,E
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1970,1970,LCU,1.7627463124,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1971,1971,LCU,1.7692293461,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1972,1972,LCU,1.8675491016,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1973,1973,LCU,2.1401257182,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1974,1974,LCU,2.4040848494,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1975,1975,LCU,2.8335448267,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1976,1976,LCU,3.1563184462,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1977,1977,LCU,3.3216320405,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1978,1978,LCU,3.5005241525,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1979,1979,LCU,4.0135392852,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1980,1980,LCU,4.9401355558,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1981,1981,LCU,5.7885534005,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1982,1982,LCU,6.7598440689,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1983,1983,LCU,7.8320276221,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1984,1984,LCU,8.3874256452,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1985,1985,LCU,9.4465297834,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1986,1986,LCU,11.1368108734,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1987,1987,LCU,13.0173736631,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1988,1988,LCU,14.8797826452,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1989,1989,LCU,17.8394042642,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1990,1990,LCU,21.2315000730,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1991,1991,LCU,24.8192626543,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1992,1992,LCU,27.7698876970,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1993,1993,LCU,30.6136486884,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1994,1994,LCU,33.1949881789,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1995,1995,LCU,36.0092985993,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1996,1996,LCU,38.1659842181,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1997,1997,LCU,40.5117982819,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1998,1998,LCU,42.7937273355,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",1999,1999,LCU,44.6289065793,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2000,2000,LCU,48.0898811487,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2001,2001,LCU,51.7768249955,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2002,2002,LCU,58.8875601615,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2003,2003,LCU,63.5292355895,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2004,2004,LCU,65.2901565101,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2005,2005,LCU,65.9901479462,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2006,2006,LCU,62.3473341027,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2007,2007,LCU,66.8288355744,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2008,2008,LCU,73.4771605628,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2009,2009,LCU,81.7582271307,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2010,2010,LCU,80.6472806216,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2011,2011,LCU,79.0898102216,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2012,2012,LCU,80.5903384354,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2013,2013,LCU,85.7360206874,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2014,2014,LCU,93.0588723351,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2015,2015,LCU,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2016,2016,LCU,106.8875088251,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2017,2017,LCU,114.5244418896,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2018,2018,LCU,118.5080333573,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2019,2019,LCU,124.7519717429,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2020,2020,LCU,132.6900980044,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6180,"Value Local Currency, 2015 prices",2021,2021,LCU,140.2652041228,X
+ZAF,1970-01-01,1970-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1970,1970,USD,31.4870491226,X
+ZAF,1971-01-01,1971-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1971,1971,USD,31.5617147965,X
+ZAF,1972-01-01,1972-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1972,1972,USD,30.9975152843,X
+ZAF,1973-01-01,1973-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1973,1973,USD,39.3477312904,X
+ZAF,1974-01-01,1974-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1974,1974,USD,45.1428852859,X
+ZAF,1975-01-01,1975-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1975,1975,USD,48.8879289410,X
+ZAF,1976-01-01,1976-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1976,1976,USD,46.3119361882,X
+ZAF,1977-01-01,1977-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1977,1977,USD,48.7375446181,X
+ZAF,1978-01-01,1978-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1978,1978,USD,51.3623875218,X
+ZAF,1979-01-01,1979-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1979,1979,USD,60.8160282287,X
+ZAF,1980-01-01,1980-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1980,1980,USD,80.9297865305,X
+ZAF,1981-01-01,1981-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1981,1981,USD,84.1585288124,X
+ZAF,1982-01-01,1982-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1982,1982,USD,79.4318710550,X
+ZAF,1983-01-01,1983-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1983,1983,USD,89.6941918251,X
+ZAF,1984-01-01,1984-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1984,1984,USD,72.5386133093,X
+ZAF,1985-01-01,1985-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1985,1985,USD,54.0803933300,X
+ZAF,1986-01-01,1986-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1986,1986,USD,62.1846087558,X
+ZAF,1987-01-01,1987-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1987,1987,USD,81.5741904138,X
+ZAF,1988-01-01,1988-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1988,1988,USD,83.5068538685,X
+ZAF,1989-01-01,1989-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1989,1989,USD,86.7860138990,X
+ZAF,1990-01-01,1990-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1990,1990,USD,104.6995171393,X
+ZAF,1991-01-01,1991-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1991,1991,USD,114.6798741644,X
+ZAF,1992-01-01,1992-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1992,1992,USD,124.2329304827,X
+ZAF,1993-01-01,1993-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1993,1993,USD,119.5313086038,X
+ZAF,1994-01-01,1994-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1994,1994,USD,119.2781228377,X
+ZAF,1995-01-01,1995-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1995,1995,USD,126.6692542104,X
+ZAF,1996-01-01,1996-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1996,1996,USD,113.2629930188,X
+ZAF,1997-01-01,1997-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1997,1997,USD,112.1726419491,X
+ZAF,1998-01-01,1998-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1998,1998,USD,98.7652213164,X
+ZAF,1999-01-01,1999-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",1999,1999,USD,93.2021622142,X
+ZAF,2000-01-01,2000-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2000,2000,USD,88.4136379444,X
+ZAF,2001-01-01,2001-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2001,2001,USD,76.7340057262,X
+ZAF,2002-01-01,2002-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2002,2002,USD,71.2797995835,X
+ZAF,2003-01-01,2003-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2003,2003,USD,107.1502977775,X
+ZAF,2004-01-01,2004-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2004,2004,USD,128.9585524594,X
+ZAF,2005-01-01,2005-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2005,2005,USD,132.3982176027,X
+ZAF,2006-01-01,2006-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2006,2006,USD,117.4746438167,X
+ZAF,2007-01-01,2007-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2007,2007,USD,121.0248857174,X
+ZAF,2008-01-01,2008-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2008,2008,USD,113.4807733841,X
+ZAF,2009-01-01,2009-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2009,2009,USD,123.1045175264,X
+ZAF,2010-01-01,2010-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2010,2010,USD,140.5466306942,X
+ZAF,2011-01-01,2011-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2011,2011,USD,138.9730146252,X
+ZAF,2012-01-01,2012-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2012,2012,USD,125.2436646902,X
+ZAF,2013-01-01,2013-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2013,2013,USD,113.2981470168,X
+ZAF,2014-01-01,2014-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2014,2014,USD,109.4047178109,X
+ZAF,2015-01-01,2015-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2015,2015,USD,100.0000000000,X
+ZAF,2016-01-01,2016-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2016,2016,USD,92.7128764841,X
+ZAF,2017-01-01,2017-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2017,2017,USD,109.5870247001,X
+ZAF,2018-01-01,2018-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2018,2018,USD,114.1942417402,X
+ZAF,2019-01-01,2019-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2019,2019,USD,110.1643645164,X
+ZAF,2020-01-01,2020-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2020,2020,USD,102.8600126740,X
+ZAF,2021-01-01,2021-12-31,202,'710,South Africa,22028,Value Added Deflator (Manufacturing),6179,"Value US$, 2015 prices",2021,2021,USD,121.0956770646,X
