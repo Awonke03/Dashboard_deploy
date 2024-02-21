@@ -364,13 +364,13 @@ fig_gender_bar.show()
 # In[28]:
 
 
-prof_cluster_heatmap = go.Figure(data=go.Heatmap(z=df.corr(), x=df.columns, y=df.columns, colorscale='viridis'
+'''prof_cluster_heatmap = go.Figure(data=go.Heatmap(z=df.corr(), x=df.columns, y=df.columns, colorscale='viridis'
 ))
 
 prof_cluster_heatmap.update_layout(title='Correlation between different features', title_font=dict(size=15),
                   width=1050, height=500)
 
-prof_cluster_heatmap.show()
+prof_cluster_heatmap.show()'''
 
 
 # In[ ]:
@@ -520,7 +520,7 @@ html.Div([
 
 html.Div([
     dbc.Row([
-        dcc.Graph(figure = prof_cluster_heatmap, config={'displayModeBar': False}),
+        dcc.Graph(figure = age_scatter, config={'displayModeBar': False}),
     ]), 
 ], className = 'p-3 mb-2 bg-light text-dark', style = {'border': '1px solid #ccc'}, id='sunburst-charts'),
 
