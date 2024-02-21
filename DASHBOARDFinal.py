@@ -523,7 +523,7 @@ CONTENT_STYLE = {
 # In[34]:
 
 
-app = JupyterDash(__name__, external_stylesheets=[dbc.themes.SLATE], suppress_callback_exceptions=True)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SLATE], suppress_callback_exceptions=True)
 #app=app.server
 
 
