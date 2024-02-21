@@ -17,8 +17,6 @@ from dash.dependencies import Input, Output
 from dash import dash_table
 import statsmodels.api as sm
 from matplotlib import pyplot as plt
-import tweepy
-from wordcloud import WordCloud
 
 
 # In[2]:
