@@ -8,3 +8,4 @@ gunicorn
 dash-core-components
 dash-html-components
 dash-renderer
+xlrd
