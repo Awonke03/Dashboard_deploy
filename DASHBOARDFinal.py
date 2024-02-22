@@ -413,14 +413,12 @@ homepage = html.Div([
     html.H2('The Alpha Team', className='text-center p-3'),
 
     html.Div([
-    
         html.Div([
             dbc.Row([
                 dcc.Graph(figure=fig_gender, config={'displayModeBar': False}),
             ]),
         ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
    
-
         html.Div([
             dbc.Row([
                 dcc.Graph(figure=fig_gender_bar, config={'displayModeBar': False}),
@@ -428,18 +426,16 @@ homepage = html.Div([
         ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
     ]),
 
-
-   
     html.Div([
         dbc.Row([
             dbc.Col(
                 dcc.Graph(figure=sunburst2, config={'displayModeBar': False}),
                 width=12
             ),
-           
         ]),
     ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='sunburst-charts'),
-     html.Div([
+
+    html.Div([
         dbc.Row([
             dbc.Col(
                 dcc.Graph(figure=work_exp_clusters, config={'displayModeBar': False}),
@@ -451,60 +447,49 @@ homepage = html.Div([
             ),
         ]),
     ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
-
-
 ])
 
 
-# #### Contributions Page
+# Contributions Page
 
 # In[32]:
 
 
-contributions = html.Div([
-html.H2('The Alpha Team', className='text-center p-3'),
-
-html.Div([
-
-  
-    html.Div([
-        dbc.Row([
-            dcc.Graph(figure=Economicallyactive, config={'displayModeBar': False}),
-        ]),
-    ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
-
+ contributions = html.Div([
+    html.H2('The Alpha Team', className='text-center p-3'),
 
     html.Div([
-        dbc.Row([
-            dcc.Graph(figure=Economicallyactivepredict, config={'displayModeBar': False}),
-        ]),
-    ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
-]),
+        html.Div([
+            dbc.Row([
+                dcc.Graph(figure=Economicallyactive, config={'displayModeBar': False}),
+            ]),
+        ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
 
-html.Div([
-    dbc.Row([
-        dbc.Col(
-            dcc.Graph(figure=trace_imports_exports, config={'displayModeBar': False}),
-            width=900
-        )
+        html.Div([
+            dbc.Row([
+                dcc.Graph(figure=Economicallyactivepredict, config={'displayModeBar': False}),
+            ]),
+        ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
     ]),
-], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
 
-html.Div([
-      
-      
+    html.Div([
+        dbc.Row([
+            dbc.Col(
+                dcc.Graph(figure=trace_imports_exports, config={'displayModeBar': False}),
+                width=900
+            )
+        ]),
     ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
 
 
-html.Div([
-    dbc.Row([
-        dcc.Graph(figure = age_scatter, config={'displayModeBar': False}),
-    ]), 
-], className = 'p-3 mb-2 bg-light text-dark', style = {'border': '1px solid #ccc'}, id='sunburst-charts'),
-
-
-
+    html.Div([
+        dbc.Row([
+            dcc.Graph(figure=prof_cluster_heatmap, config={'displayModeBar': False}),
+        ]), 
+    ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='sunburst-charts'),
 ])
+
+
 
 
 
