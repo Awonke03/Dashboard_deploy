@@ -525,6 +525,9 @@ CONTENT_STYLE = {
 
 
 app = JupyterDash(__name__, external_stylesheets=[dbc.themes.SLATE], suppress_callback_exceptions=True)
+app.css.append_css({
+    'external_url': 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+})
 app=app.server
 
 
@@ -534,16 +537,6 @@ app.layout = html.Div([
     content
 ])
 
-
-# In[35]:
-
-
-app.css.append_css({
-    'external_url': 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
-})
-
-
-# In[36]:
 
 
 @app.callback(
