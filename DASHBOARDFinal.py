@@ -528,7 +528,7 @@ app = JupyterDash(__name__, external_stylesheets=[dbc.themes.SLATE], suppress_ca
 app.css.append_css({
     'external_url': 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
 })
-app=app.server
+
 
 
 app.layout = html.Div([
@@ -572,6 +572,7 @@ def render_page_content(pathname):
 
 
 # In[38]:
+app=app.server
 
 
 if __name__ == "__main__":
