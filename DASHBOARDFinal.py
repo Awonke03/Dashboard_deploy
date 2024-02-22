@@ -480,7 +480,7 @@ contributions = html.Div([
 
     html.Div([
         dbc.Row([
-            dcc.Graph(figure=prof_cluster_heatmap, config={'displayModeBar': False}),
+            dcc.Graph(figure=age_scatter, config={'displayModeBar': False}),
         ]), 
     ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='sunburst-charts'),
 ])
