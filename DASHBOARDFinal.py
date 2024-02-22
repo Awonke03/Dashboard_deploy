@@ -407,8 +407,6 @@ sunburst2.show()
 # #### HOMEPAGE
 
 # In[31]:
-
-
 homepage = html.Div([
     html.H2('The Alpha Team', className='text-center p-3'),
 
@@ -453,9 +451,7 @@ homepage = html.Div([
 # Contributions Page
 
 # In[32]:
-
-
- contributions = html.Div([
+contributions = html.Div([
     html.H2('The Alpha Team', className='text-center p-3'),
 
     html.Div([
