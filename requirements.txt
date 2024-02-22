@@ -10,4 +10,4 @@ dash-html-components
 dash-renderer
 xlrd
 openpyxl
-Flask==2.1.4
+Flask
