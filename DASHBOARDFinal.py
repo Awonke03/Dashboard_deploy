@@ -472,17 +472,16 @@ sunburst_fig.update_layout(
 sunburst_fig.show()
 
 
+mport warnings
+warnings.filterwarnings("ignore")
+
 import dash
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 from dash.dependencies import Input, Output
-from jupyter_dash import JupyterDash
 
 # Create the app
-# Create the app
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
-server = app.server
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SLATE], suppress_callback_exceptions=True)
 
 # Sidebar layout with full height and centered buttons
 sidebar = html.Div(
@@ -495,13 +494,13 @@ sidebar = html.Div(
     ],
     style={
         'width': '15%',
-        'position': 'fixed',
-        'top': '0',
-        'right': '0',
-        'height': '100%',
+        'position': 'fixed', 
+        'top': '0',  
+        'right': '0', 
+        'height': '100%',  
         'backgroundColor': '#343a40',
         'padding': '10px',
-        'z-index': '10',
+        'z-index': '10',  
         'display': 'flex',
         'flexDirection': 'column',
         'justifyContent': 'center',
@@ -511,12 +510,12 @@ sidebar = html.Div(
 
 # Title of the dashboard
 title = html.H1("Print('Alpha')", style={
-    'text-align': 'center',
-    'position': 'fixed',
-    'top': '10px',
-    'left': '50%',
-    'transform': 'translateX(-50%)',
-    'width': '100%',
+    'text-align': 'center', 
+    'position': 'fixed', 
+    'top': '10px', 
+    'left': '50%', 
+    'transform': 'translateX(-50%)', 
+    'width': '100%', 
     'z-index': '999'
 })
 
@@ -524,10 +523,10 @@ title = html.H1("Print('Alpha')", style={
 content = html.Div(id="page-content", style={
     'margin-right': '15%',
     'margin-left': '0',
-    'margin-top': '60px',
-    'height': 'calc(100vh - 100px)',
-    'overflowY': 'auto',
-    'padding': '10px',
+    'margin-top': '60px', 
+    'height': 'calc(100vh - 100px)',  
+    'overflowY': 'auto',  
+    'padding': '10px',  
     'z-index': '1',
 })
 
@@ -561,7 +560,7 @@ second = dbc.Container([
     dbc.Row(
         dbc.Col(dcc.Graph(figure=sunburst_fig, style={'width': '100%', 'height': '400px'}), width=12),
         justify="center",  # Center the graph
-        style={'margin-bottom': '40px'}  # Space below fig6
+        style={'margin-bottom': '40px'}  # Space below sunburst_fig
     ),
     dbc.Row(
         dbc.Col(html.Hr(style={'border': '1px solid #ccc', 'margin-bottom': '20px'})),  # Divider
@@ -592,12 +591,12 @@ app.layout = html.Div([
 # Callback to control navigation
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def display_page(pathname):
-    if pathname == "/visuals1" or pathname == "/":
-        return first
+    if pathname == "/visuals1" or pathname == "/":  
+        return first  # Load the first visual for Water Analysis
     elif pathname == "/visuals2":
-        return second
+        return second  # Load the first visual for Water Impact
     else:
-        return first
+        return first  # Default to the first visual
 
 # Run the app on a different port
 if __name__ == "__main__":
