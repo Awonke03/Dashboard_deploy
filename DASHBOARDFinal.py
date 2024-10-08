@@ -108,7 +108,7 @@ plt.show()
 import pandas as pd
 import plotly.graph_objects as go
 
-df = pd.read_csv("cybercrime_costs.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/cybercrime_costs.csv")
 
 # Filter the DataFrame to only include years from 2008 onwards
 df_filtered = df[df['Year'] >= 2008]
@@ -152,7 +152,7 @@ fig5.update_layout(
 fig5.show()
 
 # Define the file path for the dataset
-file_path = 'Cyber_Threat_Rate.csv'
+file_path = 'https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/Cyber_Threat_Rate.csv'
 
 # Read the data from the CSV file
 data = pd.read_csv(file_path)
