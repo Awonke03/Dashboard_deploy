@@ -403,6 +403,31 @@ sunburst_fig.show()
 
 # ### DASHBOARD PAGES
 
+# Sidebar layout with full height and centered buttons
+sidebar = html.Div(
+    [
+        html.Hr(),
+        html.H6("Defending Your Data and Empowering Your Peace of Mind in a Connected World", style={'color': 'white', 'text-align': 'center', 'margin-bottom': '10px'}),
+        dbc.Button("World Threats Analysis", href="/visuals1", id="visuals1-button", color="primary", className="mb-2", style={'border-radius': '25px', 'width': '150px'}),
+        dbc.Button("Cyber_Threats Impact", href="/visuals2", id="visuals2-button", color="secondary", className="mb-2", style={'border-radius': '25px', 'width': '150px'}),
+        html.H6("Fortifying Your Digital Frontier Against Evolving Threats", style={'color': 'white', 'text-align': 'center', 'margin-bottom': '10px'}),
+
+    ],
+    style={
+        'width': '15%',
+        'position': 'fixed',
+        'top': '0',
+        'right': '0',
+        'height': '100%',
+        'backgroundColor': '#343a40',
+        'padding': '10px',
+        'z-index': '10',
+        'display': 'flex',
+        'flexDirection': 'column',
+        'justifyContent': 'center',
+        'alignItems': 'center'
+    }
+)
 # #### HOMEPAGE
 
 # In[31]:
