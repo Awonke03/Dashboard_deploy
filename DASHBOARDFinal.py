@@ -15,392 +15,391 @@ from dash import dash_table
 import statsmodels.api as sm
 from matplotlib import pyplot as plt
 
-crop_recommendation_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Crop_recommendation.csv'
-train_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Train.csv'
-land_area_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/LandArea2020.xls'
-nc_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/NC%20Data.xlsx'
-gdp_data_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/CountriesGdp.csv'
-agricultural_land_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/Agricultural%20land%20in%20south%20as%20a%20share%20of%20lanD%20IN%20SA%20.xlsx'
-agriculture_rural_url = 'https://raw.githubusercontent.com/Awonke03/Dashboard_deploy/main/agriculture-and-rural-development_zaf.csv'
-
-
-df = pd.read_csv(crop_recommendation_url)
-data = pd.read_csv(train_data_url)
-df4 = pd.read_excel(land_area_url)
-df5 = pd.read_excel(nc_data_url)
-df3 = pd.read_csv(gdp_data_url)
-df1 = pd.read_excel(agricultural_land_url)
-df2 = pd.read_csv(agriculture_rural_url)
-
-
-
-df2.head()
-
-summary_stats = df2.describe()
-print("Summary Statistics:")
-summary_stats
-
-df2.drop(columns=['Country Name', 'Country ISO3'],inplace=True)
-df2.sample(5)
-
-df2 = df2.drop(df.index[0])
-df2.head()
-
-#df2 = df2.sort_values(by=['Indicator Name', 'Year'])
-df2.tail(5)
-
-
-# In[8]:
-
-
-df2['Year'] = df2['Year'].astype(int)
-df_2008 = df2[df2['Year'] == 2008]
-
-
-# In[9]:
-
-
-df2.info()
-
-
-# In[10]:
-
-
-missing_values = df2.isnull().sum()
-print("\nMissing Values:")
-print(missing_values)
-
-
-# In[11]:
-
-
-df2['Indicator Name'].unique()
-
-
-# In[12]:
-
-
-df2['Value'] = pd.to_numeric(df2['Value'])
-
-
-# In[13]:
-
-
-df2[df2['Indicator Name'] == 'Agricultural raw materials imports (% of merchandise imports)']
-
-
-# In[14]:
-
-
-data.head()
-
-
-# In[15]:
-
-
-df
-
-
-# In[16]:
-
-
-df_summary = pd.pivot_table(df,index=['label'],aggfunc='mean')
-df_summary.head()
-
-
-# In[17]:
-
-
-'''consumer_key = "Os2XHEdWjIYfqUYXluK5JoeIP"
-consumer_secret = "iEsbaLbp6LSoRTyrmVtkFJ580LkMWBumr9ucMpD0QiKjcF9PJy"
-access_token = "1676194519295950849-W7jkNKhqA77ijX2sfsUPh51GKSHxE1"
-access_token_secret = "dOgtjNoksxJJiZ5hCe8ZZLOrjf4bUNkCBOEp7QVh038Gu"
-
-auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
-api = tweepy.API(auth)
-search_query = "agriculture"
-
-tweets = api.search_tweets(q=search_query, count=100)
-tweet_texts = [tweet.text for tweet in tweets]
-all_tweets_text = " ".join(tweet_texts)
-wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_tweets_text)
-
-plt.figure(figsize=(10, 5))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
-plt.show()'''
-
-
-# In[18]:
-
-
-imports_df = df2[df2['Indicator Name'] == 'Agricultural raw materials imports (% of merchandise imports)']
-
-exports_df = df2[df2['Indicator Name'] == 'Agricultural raw materials exports (% of merchandise exports)']
-
-trace_imports = go.Scatter(x=imports_df['Year'], y=imports_df['Value'], mode='lines', name='Imports')
-trace_exports = go.Scatter(x=exports_df['Year'], y=exports_df['Value'], mode='lines', name='Exports')
-
-layout = go.Layout(title='Agricultural Raw Materials Imports and Exports',
-                   xaxis=dict(title='Year'),
-                   yaxis=dict(title='Percentage of Merchandise Imports/Exports'))
-
-trace_imports_exports = go.Figure(data=[trace_imports, trace_exports], layout=layout)
-
-trace_imports_exports.show()
-
-
-# In[19]:
-
-
-Economicallyactive_df = df2[df2['Indicator Name'] == 'Economically active population in agriculture (number)']
-
-Economicallyactive = px.line(Economicallyactive_df, x='Year', y='Value', title='Economically active population in agriculture',
-              labels={'Year': 'Year', 'Value': 'Value'})
-Economicallyactive.show()
-
-
-# In[20]:
-
-
-female_employ_df = df2[df2['Indicator Name'] == 'Employment in agriculture, female (% of female employment) (modeled ILO estimate)']
-
-male_employ_df = df2[df2['Indicator Name'] == 'Employment in agriculture, male (% of male employment) (modeled ILO estimate)']
-
-Employment_df= df2[df2['Indicator Name'] == 'Employment in agriculture (% of total employment) (modeled ILO estimate)']
-
-
-# In[21]:
-
-
-Economicallyactivepredict = px.line(Employment_df, x='Year', y='Value', title='Employment in agriculture (% of total employment) (modeled ILO estimate)',
-              labels={'Year': 'Year', 'Value': 'Value'})
-Economicallyactivepredict.show()
-
-
-# In[22]:
-
-
-x = df_summary.index
-y1 = df_summary['temperature']
-y2 = df_summary['humidity']
-y3 = df_summary['rainfall']
-
-color1 = 'rgb(255, 102, 102)'  
-color2 = 'rgb(102, 204, 102)' 
-color3 = 'rgb(102, 178, 255)'  
-
-work_exp_clusters = go.Figure()
-
-work_exp_clusters.add_trace(go.Bar(x=x, y=y1, name='Temperature', marker_color=color1, offsetgroup=0))
-work_exp_clusters.add_trace(go.Bar(x=x, y=y2, name='Humidity', marker_color=color2, offsetgroup=1))
-work_exp_clusters.add_trace(go.Bar(x=x, y=y3, name='Rainfall', marker_color=color3, offsetgroup=2))
-
-work_exp_clusters.update_layout(title="Temperature-Humidity-Rainfall values comparison between crops",
-                  xaxis=dict(title="Crop"),
-                  yaxis=dict(title="Environmental Values"),
-                  xaxis_tickangle=-45,
-                  barmode='group',
-                  bargap=0.2,  
-                  legend=dict(x=0, y=1),
-                  margin=dict(l=50, r=50, t=50, b=50)) 
-work_exp_clusters.show()
-
-
-# In[23]:
-
-
-x = df_summary.index
-y1 = df_summary['N']
-y2 = df_summary['P']
-y3 = df_summary['K']
-
-color1 = 'rgb(255, 102, 102)'  # Red
-color2 = 'rgb(102, 204, 102)'  # Green
-color3 = 'rgb(102, 178, 255)'  #
-prof_clusters= go.Figure()
-prof_clusters.add_trace(go.Bar(x=x, y=y1, name='Nitrogen', marker_color=color1))
-prof_clusters.add_trace(go.Bar(x=x, y=y2, name='Phosphorous', marker_color=color2, base=y1))
-prof_clusters.add_trace(go.Bar(x=x, y=y3, name='Potasium', marker_color=color3, base=[sum(i) for i in zip(y1, y2)]))
-
-prof_clusters.update_layout(title="N-P-K values comparison between crops",
-                  xaxis=dict(title="Crop"),
-                  yaxis=dict(title="Nutrient Value"),
-                  xaxis_tickangle=-45,
-                  legend=dict(x=1, y=0.5), 
-                  barmode='stack',
-                  bargap=0.15, 
-                  margin=dict(l=50, r=50, t=50, b=50)) 
-
-prof_clusters.show()
-
-
-# In[24]:
-
-
-SIDEBAR_STYLE = {
-    'position': 'fixed',
-    'top': 0,
-    'left': 0,
-    'bottom': 0,
-    'width': '12rem',
-    'padding': '2rem 1rem',
-    'background-color': 'rgba(120, 120, 120, 0.4)',
-}
-
-CONTENT_STYLE = {
-    'margin-left': '15rem',
-    'margin-right': '2rem',
-    'padding': '2rem 1rem',
-}
-
-dropdown_options = [{'label': str(id), 'value': id} for id in data['ID']]
-
-sidebar = html.Div(
-    [
-        html.Hr(),
-        html.P('Agriculture Optimazation', className='text-center p-3 border border-dark'),
-        html.Hr(),
-        dbc.Nav(
-            [
-                dbc.NavLink("SA Land", href="/SA-land", className="nav-link"),
-                
-                dbc.NavLink('Effects', href="/Effects", active='exact'),
-            ],
-            vertical=True,
-            pills=True,
-        ),
-        html.Div(
-            [
-                html.P('Leveraging Technology', style={'text-align': 'center', 'margin': '0'}),
-                html.P('To help and improve the ', style={'text-align': 'center', 'margin': '0'}),
-                html.P('Agricutltural department', style={'text-align': 'center', 'margin': '0'}),
-            ],
-            style={'padding': '10px 0', 'text-align': 'center'}
-        ),
-    ],
-    style=SIDEBAR_STYLE,
+# Load the dataset
+df = pd.read_csv("https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/cyberattack_distribution_2023.csv")
+
+# Create a bar chart
+fig3 = px.bar(
+    df,
+    x='Percentage',
+    y='Industry',
+    title='Distribution of Cyberattacks Across Industries in 2023',
+    labels={'Percentage': 'Percentage (%)', 'Industry': 'Industry'},
+    color='Percentage',
+    text='Percentage',
+    color_continuous_scale=px.colors.sequential.Viridis
 )
 
-content = html.Div(id='page-content', children=[], style=CONTENT_STYLE)
+# Update layout for better appearance
+fig3.update_layout(
+    xaxis=dict(title='Percentage (%)'),
+    yaxis=dict(title='Industry'),
+    width=1250,
+    height=500
+)
+
+# Show the plot
+fig3.show()
+
+import numpy as np
+lith_dict = {'LITH': ['Shale', 'Sandstone',
+                      'Sandstone/Shale', 'Chalk',
+                      'Limestone', 'Marl', 'Tuff'],
+             'COUNT': [40,65, 40, 35,
+                            40, 70, 50]}
+
+df = pd.DataFrame.from_dict(lith_dict)
+
+# Get key properties for colours and labels
+max_value_full_ring = max(df['COUNT'])
+
+ring_colours = ['#2f4b7c', '#665191', '#a05195','#d45087',
+               '#f95d6a','#ff7c43','#ffa600']
+
+ring_labels = [f'   {x} ({v}) ' for x, v in zip(list(df['LITH']),
+                                                 list(df['COUNT']))]
+data_len = len(df)
+
+# Begin creating the figure
+fig = plt.figure(figsize=(10,10), linewidth=10,
+                 edgecolor='#393d5c',
+                 facecolor='#25253c')
+
+rect = [0.1,0.1,0.8,0.8]
+
+# Add axis for radial backgrounds
+ax_polar_bg = fig.add_axes(rect, polar=True, frameon=False)
+ax_polar_bg.set_theta_zero_location('N')
+ax_polar_bg.set_theta_direction(1)
+
+# Loop through each entry in the dataframe and plot a grey
+# ring to create the background for each one
+for i in range(data_len):
+    ax_polar_bg.barh(i, max_value_full_ring*1.5*np.pi/max_value_full_ring,
+                     color='grey',
+                     alpha=0.1)
+# Hide all axis items
+ax_polar_bg.axis('off')
+
+# Add axis for radial chart for each entry in the dataframe
+ax_polar = fig.add_axes(rect, polar=True, frameon=False)
+ax_polar.set_theta_zero_location('N')
+ax_polar.set_theta_direction(1)
+ax_polar.set_rgrids([0, 1, 2, 3, 4, 5, 6],
+                    labels=ring_labels,
+                    angle=0,
+                    fontsize=14, fontweight='bold',
+                    color='white', verticalalignment='center')
+
+# Loop through each entry in the dataframe and create a coloured
+# ring for each entry
+for i in range(data_len):
+    ax_polar.barh(i, list(df['COUNT'])[i]*1.5*np.pi/max_value_full_ring,
+                  color=ring_colours[i])
 
 
-# ## CHARTS
+# Hide all grid elements for the
+ax_polar.grid(False)
+ax_polar.tick_params(axis='both', left=False, bottom=False,
+                   labelbottom=False, labelleft=True)
 
-# In[25]:
+plt.show()
 
+import pandas as pd
+import plotly.graph_objects as go
 
-train_df = data
+df = pd.read_csv("cybercrime_costs.csv")
 
+# Filter the DataFrame to only include years from 2008 onwards
+df_filtered = df[df['Year'] >= 2008]
 
-# In[26]:
+fig5 = go.Figure()
 
-
-green_scale = [[0, '#f7fcf5'], [0.25, '#c7e9c0'], [0.5, '#41ab5d'], [0.75, '#238b45'], [1, '#005a32']]
-
-fig_gender = go.Figure(data=go.Choropleth(
-    locations=df4['Country'],
-    locationmode='country names', 
-    z=df4['Land Area (1000 hectares)'],  
-    colorscale=green_scale, 
-    colorbar_title='Land Area (1000 hectares)',  
+fig5.add_trace(go.Bar(
+    y=df_filtered['Year'].astype(str),
+    x=-df_filtered['Hourly Financial Losses'],
+    name='Hourly Financial Losses',
+    marker_color='yellow',
+    orientation='h',
+    hovertemplate='%{x:,.0f} losses',
+    marker=dict(line=dict(width=1, color='white')),
 ))
 
-fig_gender.update_layout(
-    title='Land Area by Country (Choropleth Map)',
+fig5.add_trace(go.Bar(
+    y=df_filtered['Year'].astype(str),
+    x=df_filtered['Hourly Count of Victims'],
+    name='Hourly Count of Victims',
+    marker_color='red',
+    orientation='h',
+    hovertemplate='%{x} victims',
+    marker=dict(line=dict(width=1, color='white')),
+))
+
+fig5.update_layout(
+    title='Yearly Growth of Cybercrime Costs',
+    barmode='overlay',
+    xaxis_title='Hourly Financial Losses / Count of Victims',
+    yaxis_title='Year',
+    xaxis=dict(showgrid=True),
+    yaxis=dict(autorange="reversed"),  # Automatically reverse the order of years
+    template='plotly_dark',
+    hovermode='y',
+    width=1250,
+    height=500,
+    legend=dict(title_text='Metrics', orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1),
+)
+
+fig5.show()
+
+# Define the file path for the dataset
+file_path = 'Cyber_Threat_Rate.csv'
+
+# Read the data from the CSV file
+data = pd.read_csv(file_path)
+
+# Transform the DataFrame to long format
+data_long = pd.melt(data, id_vars=['Country Code', 'Country Name_x', 'Continent_x'],
+                    var_name='Year', value_name='Cyber Threat Rate')
+
+# Ensure 'Year' is a string
+data_long['Year'] = data_long['Year'].astype(str)
+
+# Filter the data to include only from 2015 onwards
+data_long_filtered = data_long[data_long['Year'].astype(int) >= 2015]
+
+# Plotting the animated choropleth map for Cyber Threats (2015 onwards)
+fig1 = px.choropleth(
+    data_long_filtered,
+    locations='Country Code',
+    color='Cyber Threat Rate',  # Using 'Cyber Threat Rate' as the color
+    hover_name='Country Name_x',
+    animation_frame='Year',
+    color_continuous_scale='Reds',  # Changing the scale from white to red
+    title='Cyber Threat Rate Over Time [2015-2022]',
+    projection='natural earth'
+)
+
+# Customize layout and increase size of the map
+fig1.update_layout(
     geo=dict(
-        showframe=False,  
-        projection_type='equirectangular' 
-    )
-)
-
-fig_gender.show()
-
-
-# In[27]:
-
-
-fig_gender_bar = px.bar(
-    df3,
-    x='Country',
-    y='GDP in Africa 2021 in %;',
-    color='GDP in Africa 2021 in %;', 
-    color_continuous_scale='Viridis',
-    title='The contribution of agriculture to the GDP in Africa by Country',
-    labels={'GDP in Africa 2021 in %;': 'GDP in Africa 2021 %'},
-    template='plotly_white'
-)
-
-
-fig_gender.update_layout(
-    xaxis=dict(title='Country'),
-    yaxis=dict(title='GDP in Africa 2021 in %;'),
-)
-fig_gender_bar.show()
-
-
-# In[28]:
-
-
-'''prof_cluster_heatmap = go.Figure(data=go.Heatmap(z=df.corr(), x=df.columns, y=df.columns, colorscale='viridis'
-))
-
-prof_cluster_heatmap.update_layout(title='Correlation between different features', title_font=dict(size=15),
-                  width=1050, height=500)
-
-prof_cluster_heatmap.show()'''
-
-
-# In[ ]:
-
-
-
-
-
-# In[29]:
-
-
-age_scatter = go.Figure()
-
-age_scatter.add_trace(go.Scatter(
-    x=df1['Year '],  
-    y=df1['Share of land'],
-    mode='lines+markers',
-    marker=dict(
-        size=10,
-        color=list(range(len(df1))), 
-        colorscale='Viridis', 
-        colorbar=dict(title='Year')
+        showcoastlines=True,
+        coastlinecolor="Black",
+        showland=True,
+        landcolor="LightGray",
+        showocean=True,
+        oceancolor="LightBlue",
+        showlakes=True,
+        lakecolor="LightBlue"
     ),
-    line=dict(color='darkblue', width=2), 
-    name='Share of land'
-))
-
-age_scatter.update_layout(
-    title='Agricultural land as a share of Land area in South Africa from 2000 to 2020',
-    xaxis=dict(title='Index'),
-    yaxis=dict(title='Share of agricultural land'),
-    showlegend=True,
-    template='plotly_white'  
+    coloraxis_colorbar_title='Cyber Threat Rate',  # Adjusting the color bar title
+    title_font_size=24,
+    title_font_family='Arial',
+    width=1250,  # Maintain the map width
+    height=450   # Maintain the map height
 )
 
-age_scatter.show()
+# Show the plot
+fig1.show()
+
+# Load data into pandas dataframe
+phishing_df = pd.read_csv('https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/phishing_incidents.csv')
+
+# Identify the index of the category with the highest incidents
+max_index = phishing_df['Incidents Count'].idxmax()
+
+# Get key properties for colours and labels
+max_value_full_ring = max(phishing_df['Incidents Count'])
+
+# Prepare color list and labels
+ring_colours = ['#2f4b7c' if i != max_index else '#ff7c43' for i in range(len(phishing_df))]  # Highlight max index
+ring_labels = [f'{category} ({count})' for category, count in zip(phishing_df['Category'], phishing_df['Incidents Count'])]
+
+# Data length
+data_len = len(phishing_df)
+
+# Begin creating the figure
+fig = plt.figure(figsize=(10, 10), linewidth=10, edgecolor='#393d5c', facecolor='#25253c')
+rect = [0.1, 0.1, 0.8, 0.8]
+
+# Add axis for radial backgrounds
+ax_polar_bg = fig.add_axes(rect, polar=True, frameon=False)
+ax_polar_bg.set_theta_zero_location('N')
+ax_polar_bg.set_theta_direction(1)
+
+# Loop through each entry in the dataframe and plot a grey ring for the background
+for i in range(data_len):
+    ax_polar_bg.barh(i, max_value_full_ring * 1.5 * np.pi / max_value_full_ring, color='grey', alpha=0.1)
+
+# Hide all axis items
+ax_polar_bg.axis('off')
+
+# Add axis for radial chart
+ax_polar = fig.add_axes(rect, polar=True, frameon=False)
+ax_polar.set_theta_zero_location('N')
+ax_polar.set_theta_direction(1)
+
+# Set the angular ticks to match the number of categories
+angles = np.linspace(0, 2 * np.pi, data_len, endpoint=False).tolist()
+ax_polar.set_xticks(angles)  # Set the angle locations
+ax_polar.set_xticklabels(ring_labels, fontsize=12, fontweight='bold', color='white')  # Set the labels
+
+# Loop through each entry in the dataframe and create a coloured ring for each entry
+for i in range(data_len):
+    ax_polar.barh(i, phishing_df['Incidents Count'][i] * 1.5 * np.pi / max_value_full_ring, color=ring_colours[i])
+
+# Hide all grid elements
+ax_polar.grid(False)
+ax_polar.tick_params(axis='both', left=False, bottom=False, labelbottom=False, labelleft=True)
+
+# Set title
+plt.title("Proportional Distribution of Cybercrime Incidents", color='white')
+
+# Show the plot
+plt.show()
+
+# Define the file path for the dataset
+file_path = 'https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/Cyber_Threat_Rate.csv'
+
+# Read the data from the CSV file
+data = pd.read_csv(file_path)
+
+# Transform the DataFrame to long format
+data_long = pd.melt(data, id_vars=['Country Code', 'Country Name_x', 'Continent_x'],
+                    var_name='Year', value_name='Cyber Threat Rate')
+
+# Ensure 'Year' is a string
+data_long['Year'] = data_long['Year'].astype(str)
+
+# Filter the data to include only from 2015 to 2022
+data_long_filtered = data_long[(data_long['Year'].astype(int) >= 2015) & (data_long['Year'].astype(int) <= 2022)]
+
+# Function to get the highest Cyber Threat Rate per continent per year, including South Africa
+def get_highest_country_per_continent(df):
+    # Get the highest country from each continent
+    highest_countries = df.loc[df.groupby(['Year', 'Continent_x'])['Cyber Threat Rate'].idxmax()]
+
+    # Ensure South Africa is included in the results
+    sa_data = df[df['Country Name_x'] == 'South Africa']
+    sa_data = sa_data[sa_data['Year'].isin(highest_countries['Year'])]
+
+    # Combine the two datasets
+    combined_data = pd.concat([highest_countries, sa_data]).drop_duplicates()
+    return combined_data
+
+# Get the highest country from each continent per year, including South Africa
+highest_countries = get_highest_country_per_continent(data_long_filtered)
+
+# Create the animated bar plot
+fig2 = px.bar(
+    highest_countries,
+    x='Country Name_x',  # X-axis represents the countries
+    y='Cyber Threat Rate',  # Y-axis represents cyber threat rates
+    color='Continent_x',  # Different colors for different continents
+    animation_frame='Year',  # Animation over the years
+    animation_group='Country Name_x',  # Group animation by country
+    title='Highest Cyber Threat Rate Country by Continent (2015-2022)',
+    labels={'Country Name_x': 'Country', 'Cyber Threat Rate': 'Cyber Threat Rate'},
+)
+
+# Customize layout with specified height and width
+fig2.update_layout(
+    xaxis_title='Country',
+    yaxis_title='Cyber Threat Rate',
+    title_font_size=24,
+    title_font_family='Arial',
+    showlegend=True,  # Show legend to differentiate continents
+    width=1250,  # Set the width of the plot
+    height=550   # Set the height of the plot
+)
+
+# Show the plot
+fig2.show()
+
+import pandas as pd
+import plotly.graph_objects as go
+
+# Load the data from the CSV file
+df = pd.read_csv('https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/cybercrime_impact.csv')
+
+# Convert Loss to numerical values for plotting (in dollars)
+def convert_loss_to_numeric(loss_str):
+    if 'B' in loss_str:
+        return float(loss_str.replace('B', '').replace(',', '').strip()) * 1e9  # Convert to dollars
+    elif 'M' in loss_str:
+        return float(loss_str.replace('M', '').replace(',', '').strip()) * 1e6  # Convert to dollars
+    else:
+        return float(loss_str.replace(',', '').strip())
+
+# Apply the conversion to the Loss column
+df['Loss (Dollars)'] = df['Loss'].apply(convert_loss_to_numeric)
+
+# Create the figure
+fig4 = go.Figure()
+
+# Add the 'Loss' data to the figure
+fig4.add_trace(go.Bar(
+    x=df['Cyber crime type'],
+    y=df['Loss (Dollars)'],
+    name='Total Loss ($)',
+    marker_color='orange',
+    yaxis='y1'
+))
+
+# Add the 'Victims' data to the figure
+fig4.add_trace(go.Bar(
+    x=df['Cyber crime type'],
+    y=df['Victims'],
+    name='Number of Victims',
+    marker_color='blue',
+    yaxis='y2'
+))
+
+# Create axes
+fig4.update_layout(
+    title='Cyber Crime Impact 2023: Total Loss vs. Number of Victims',
+    xaxis_title='Cyber Crime Type',
+    yaxis_title='Total Loss ($)',
+    yaxis=dict(
+        title='Total Loss ($)',
+        titlefont=dict(color='orange'),
+        tickfont=dict(color='orange'),
+    ),
+    yaxis2=dict(
+        title='Number of Victims',
+        titlefont=dict(color='blue'),
+        tickfont=dict(color='blue'),
+        overlaying='y',
+        side='right'
+    ),
+    barmode='stack',  # Set the bar mode to stack
+    width=1250,  # Set the width of the plot
+    height=550,  # Set the height of the plot
+)
+
+# Show the figure
+fig4.show()
+
+df = pd.read_csv('https://raw.githubusercontent.com/Awonke03/Capstone_Project/main/cybercrime_victims_by_year_age.csv')
+
+# Create the Sunburst Chart
+sunburst_fig = px.sunburst(df,
+                       path=['Year', 'Age Group'],
+                       values='Victims Count',
+                       title='Cybercrime Victims by Year and Age Group (2015-2023)',
+                       color='Victims Count',
+                       color_continuous_scale='YlOrBr',  # Change this to a different color scale
+                       branchvalues='total',
+                       template='plotly_dark')
+sunburst_fig.update_layout(
+
+    width=1250,  # Set the width of the plot
+    height=500,  # Set the height of the plot
+)
 
 
-# In[30]:
 
-
-northern_cape_df_sorted = df5.sort_values(by='Agricultural Potential', ascending=False)
-
-sunburst2 = go.Figure(data=[
-    go.Bar(name='Agricultural Potential', x=northern_cape_df_sorted['City/Town in the NC'], y=northern_cape_df_sorted['Agricultural Potential']),
-    go.Bar(name='Size of Economy', x=northern_cape_df_sorted['City/Town in the NC'], y=northern_cape_df_sorted['Size of Economy'])
-])
-
-sunburst2.update_layout(barmode='group', title='Agricultural Potential and Size of Economy of Towns in the Northern Cape')
-
-sunburst2.show()
-
+# Show the chart
+sunburst_fig.show()
 
 # ### DASHBOARD PAGES
 
@@ -413,13 +412,13 @@ homepage = html.Div([
     html.Div([
         html.Div([
             dbc.Row([
-                dcc.Graph(figure=fig_gender, config={'displayModeBar': False}),
+                dcc.Graph(figure=fig1, config={'displayModeBar': False}),
             ]),
         ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
    
         html.Div([
             dbc.Row([
-                dcc.Graph(figure=fig_gender_bar, config={'displayModeBar': False}),
+                dcc.Graph(figure=fig2, config={'displayModeBar': False}),
             ]),
         ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
     ]),
@@ -427,24 +426,12 @@ homepage = html.Div([
     html.Div([
         dbc.Row([
             dbc.Col(
-                dcc.Graph(figure=sunburst2, config={'displayModeBar': False}),
+                dcc.Graph(figure=fig3, config={'displayModeBar': False}),
                 width=12
             ),
         ]),
     ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='sunburst-charts'),
 
-    html.Div([
-        dbc.Row([
-            dbc.Col(
-                dcc.Graph(figure=work_exp_clusters, config={'displayModeBar': False}),
-                width=6
-            ),
-            dbc.Col(
-                dcc.Graph(figure=prof_clusters, config={'displayModeBar': False}),
-                width=6
-            ),
-        ]),
-    ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
 ])
 
 
@@ -457,13 +444,13 @@ contributions = html.Div([
     html.Div([
         html.Div([
             dbc.Row([
-                dcc.Graph(figure=Economicallyactive, config={'displayModeBar': False}),
+                dcc.Graph(figure=sunburst_fig, config={'displayModeBar': False}),
             ]),
         ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
 
         html.Div([
             dbc.Row([
-                dcc.Graph(figure=Economicallyactivepredict, config={'displayModeBar': False}),
+                dcc.Graph(figure=fig5, config={'displayModeBar': False}),
             ]),
         ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
     ]),
@@ -471,18 +458,14 @@ contributions = html.Div([
     html.Div([
         dbc.Row([
             dbc.Col(
-                dcc.Graph(figure=trace_imports_exports, config={'displayModeBar': False}),
+                dcc.Graph(figure=fig4, config={'displayModeBar': False}),
                 width=900
             )
         ]),
     ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='customer-distribution'),
 
 
-    html.Div([
-        dbc.Row([
-            dcc.Graph(figure=age_scatter, config={'displayModeBar': False}),
-        ]), 
-    ], className='p-3 mb-2 bg-light text-dark', style={'border': '1px solid #ccc'}, id='sunburst-charts'),
+  
 ])
 
 
